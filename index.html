@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Scienceपाठशाला</title>
+    <style>
+        /* Reset & base */
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            color: #fff;
+            overflow-x: hidden;
+        }
+
+        /* Particle Background Container */
+        #particles-js {
+            position: fixed;
+            width: 100%;
+            height: 100%;
+            background: radial-gradient(circle at center, #0f2027, #203a43, #2c5364);
+            z-index: -1;
+        }
+
+        /* Navbar Styling */
+        .navbar {
+            width: 100%;
+            background: rgba(0, 0, 0, 0.6);
+            backdrop-filter: blur(8px);
+            -webkit-backdrop-filter: blur(8px);
+            padding: 15px 30px;
+            border-radius: 10px;
+            margin: 20px auto;
+            max-width: 1000px;
+        }
+
+        .nav-container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .navbar .logo {
+            font-size: 1.5em;
+            font-weight: bold;
+            color: #ffffff;
+            text-decoration: none;
+        }
+
+        .nav-links a {
+            margin-left: 20px;
+            text-decoration: none;
+            color: #ffffff;
+            font-weight: 500;
+            transition: color 0.3s ease;
+        }
+
+        .nav-links a:hover {
+            color: #00e6ff;
+        }
+
+        h1 {
+            text-align: center;
+            margin: 20px 0;
+            color: #ffffff;
+        }
+
+        h2 {
+            text-align: center;
+            margin: 20px 0;
+             color: #ffffff;
+        }
+
+    .info-box {
+            background: rgba(255, 255, 255, 0.05); /* more transparent */
+            border: 1px solid rgba(255, 255, 255, 0.2); /* subtle border */
+            border-radius: 16px;
+            padding: 30px;
+            margin: 40px auto;
+            max-width: 900px;
+
+            /* Glass effect */
+        backdrop-filter: blur(15px);
+        -webkit-backdrop-filter: blur(15px);
+
+         /* Optional shadow and soft edges */
+        box-shadow: 0 8px 32px rgba(0, 0, 0, 0.37);
+        color: #ffffff; /* Light text on dark background */
+        }       
+        .info-box h2 {
+            font-size: 28px;
+            font-weight: bold;
+            margin-bottom: 16px;
+            border-bottom: 2px solid rgba(255, 255, 255, 0.2);
+            padding-bottom: 8px;
+        }
+
+        .info-box p {
+            color: #d0faff; /* Soft blue glow text */
+            font-size: 16px;
+            line-height: 1.6;
+            margin-bottom: 16px;
+        }
+    </style>
+</head>
+<body>
+    <!-- Particle Background -->
+    <div id="particles-js"></div>
+
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="logo">Scienceपाठशाला</a>
+            <div class="nav-links">
+                <a href="index.html">Home</a>
+                <a href="solar.html">Solar system</a>
+                <a href="periodic.html">Periodic table</a>
+            </div>
+        </div>
+    </nav>
+
+    <h1>Welcome to Scienceपाठशाला</h1>
+
+    <!-- Intro Section -->
+<div class="info-box">
+    <h2>Exploring the World of Science</h2>
+    <p>
+        Science is the key to understanding the mysteries of the universe. From the tiniest atoms 
+        to the vast galaxies, it helps us explore, question, and discover the principles that govern everything around us.
+    </p>
+    <p>
+        It is not just a collection of facts, but a way of thinking. Through observation, experimentation, 
+        and reasoning, science empowers us to innovate and create technologies that transform human life.
+    </p>
+    <p>
+        Every discovery opens new doors of curiosity. The more we learn, the more questions arise— 
+        fueling a never-ending journey of knowledge. Welcome to a place where learning meets imagination!
+    </p>
+</div>
+    <!-- Particles.js Library -->
+    <script src="https://cdn.jsdelivr.net/npm/particles.js"></script>
+    <script>
+        particlesJS("particles-js", {
+            "particles": {
+                "number": { "value": 80 },
+                "color": { "value": "#00e6ff" },
+                "shape": { "type": "circle" },
+                "opacity": {
+                    "value": 0.5,
+                    "random": true
+                },
+                "size": {
+                    "value": 4,
+                    "random": true
+                },
+                "line_linked": {
+                    "enable": true,
+                    "distance": 150,
+                    "color": "#00e6ff",
+                    "opacity": 0.4,
+                    "width": 1
+                },
+                "move": {
+                    "enable": true,
+                    "speed": 2,
+                    "direction": "none",
+                    "random": false,
+                    "straight": false,
+                    "out_mode": "bounce",
+                    "attract": { "enable": false }
+                }
+            },
+            "interactivity": {
+                "detect_on": "canvas",
+                "events": {
+                    "onhover": { "enable": true, "mode": "repulse" },
+                    "onclick": { "enable": true, "mode": "push" }
+                },
+                "modes": {
+                    "repulse": { "distance": 100 },
+                    "push": { "particles_nb": 4 }
+                }
+            },
+            "retina_detect": true
+        });
+    </script>
+</body>
+</html>
