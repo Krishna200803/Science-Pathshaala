@@ -7,9 +7,13 @@ Science Pathshaala is a visually rich educational website designed to help stude
 
 This project includes:
   🪐 Solar System Showcase (Animated slide-based interface)
-  🔬 Dynamic Periodic Table (Interactive, searchable, temperature-based visualization)
+  
+  🔬 Dynamic Periodic Table (Interactive, searchable, temperature-based visualization
+  
   🧪 Home Page with Animated Particle Background
+  
   🎨 Custom CSS styling and smooth animations
+  
   💡 Easy navigation and mobile-friendly layout
 
 📁 Project Structure
