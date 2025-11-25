@@ -2,7 +2,9 @@
 
 An interactive and engaging platform to explore Science concepts visually — including the Solar System, Periodic Table, and a modern animated Home Page.
 
+
 📌 Project Overview
+
 Science Pathshaala is a visually rich educational website designed to help students learn science concepts through animations, interactivity, and clean UI.
 
 This project includes:
@@ -17,7 +19,9 @@ This project includes:
   
   💡 Easy navigation and mobile-friendly layout
 
+
 📁 Project Structure
+
   Science Pathshaala/
   
   │-- index.html         → Home Page  :contentReference[oaicite:0]{index=0}
@@ -30,31 +34,54 @@ This project includes:
   
   │-- style.css          → CSS for periodic table UI  :contentReference[oaicite:4]{index=4}
 
+
 ✨ Features
+
   🌌 Solar System Showcase
+  
     • Animated planetary rotation
+    
     • Slide-based transitions
+    
     • Display of planet stats (distance, radius, temperature, etc.)
+    
     • Full-screen immersive background
+
   
   🧬 Dynamic Periodic Table
+  
     • Fully interactive
+    
     • Color-coded element categories
+    
     • Temperature slider to change element states (solid, liquid, gas)
+    
     • Hover-tooltip and modal pop-up element details
+
   
   🎆 Animated Home Page
+  
     • Particle.js background
+    
     • Glass-effect info cards
+    
     • Simple and professional navigation bar
+    
   
 🛠️ Technologies Used
+
     • HTML5
+    
     • CSS3 (Glassmorphism, gradients, responsive design)
+    
     • JavaScript (ES6)
+    
     • Particles.js (background animation)
+    
     • Google Fonts
+    
     • Font Awesome
+    
 
  🚀 How to Run Locally
  
@@ -66,21 +93,31 @@ This project includes:
     
     • Open index.html in any browser.
 
+
 📸 Screenshots
   <img width="1920" height="923" alt="index page" src="https://github.com/user-attachments/assets/7e52a1c7-afa6-41c0-a035-95863621efc2" />
   <img width="1920" height="938" alt="solar system" src="https://github.com/user-attachments/assets/edb82491-b10c-43ae-b226-bbb34f6c72d8" />
   <img width="1896" height="936" alt="periodic table" src="https://github.com/user-attachments/assets/5cb7059f-4922-43e8-819f-6264ea0a6b43" />
 
+
 🤝 Contributions
 
   Contributions are welcome!
+  
   You can:
+  
   • Improve UI
+  
   • Add new science modules
+  
   • Enhance animations
+  
   • Fix bugs
 
+
 💬 Author
+
   Krishna Madesiya
+  
   Created with the aim to make Science simple, visual, and fun for students.
 
